@@ -1,0 +1,1670 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media (max-width : 414px) {
+  .log {
+    margin-left: 8px;
+  }
+  .log-size {
+    height: 21px;
+  }
+  .ct-cat {
+    margin-left: 36px;
+  }
+  .ct-imgsize {
+   
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    z-index:1; 
+    width : 100%;
+    height : 200px;
+  }
+  .centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ct-txts {
+    font-size: 19px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-txtm {
+    font-size: 19px;
+    color: white;
+    background-color: #e7165d;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-bg {
+    width : 330px;
+    height : 120px;
+  }
+  .ct-search {
+    width: 300px;
+    height: 35px;
+    margin-left : 36px;
+    margin-top : 10px;
+    padding-left: 10px;
+  }
+  .ct-button {
+    height: 35px;
+    width : 300px;
+    margin-left : 36px
+
+  }
+  .ct-advs {
+    font-size : 17px;
+    margin-left: 200px;
+  }
+  .ct-head {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .ct-subhead {
+    margin-top: -15px;
+    text-align: center;
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   .ct-pad {
+    padding-right: 60%;
+    width: 500px;
+    height: 65px;
+    margin-top: -10px;
+    margin-left: -20px;
+   }
+   .ct-prgsize {
+     height: 50px;
+   }
+   .ct-cardimg {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  .ct-card {
+    height:390px
+  }
+
+  .ct-cardimg img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .ct-cardimg .ct-olimg {
+    position: absolute;
+    top: 25%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 130px;
+  }
+  
+  .ct-cardimg .ct-logoimg {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .ct-cardimg .ct-type {
+    position: absolute;
+    top: 90.5%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+  
+  .ct-cardimg .ct-amount {
+    position: absolute;
+    top: 90.5%;
+    right: -15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    padding-top: 8px;
+  }
+  .ct-date {
+    font-size: 7.5px;
+  }
+  .ct-duedate {
+    font-size: 7.5px;
+    
+  }
+  .ct-nlsize {
+    font-size: 20px;
+  }
+  .ct-ftsize {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+  }
+  .ct-ftimgsize {
+    width: 170px;
+   
+  }
+}
+
+@media (width : 411px)  {
+  .ct-bg {
+    width : 390px;
+    height : 120px;
+  }
+  .ct-search {
+    width: 346px;
+    height: 35px;
+    margin-left : 36px;
+    margin-top : 10px;
+    padding-left: 10px;
+  }
+  .ct-button {
+    height: 35px;
+    width : 346px;
+    margin-left : 36px
+
+  }
+  .ct-advs {
+    font-size : 17px;
+    margin-left: 240px;
+  }
+  .ct-pad {
+    padding-right: 35%;
+    width: 500px;
+    height: 65px;
+    margin-top: -10px;
+    margin-left: -20px;
+   }
+}
+
+@media (min-width : 411px) and (max-width 
+: 414px) {
+  .ct-cat {
+    margin-left: 85px;
+  }
+  .ct-cardimg img {
+    width: 100%;
+    height: auto;
+  }
+  .ct-card {
+    height:390px
+  }
+  
+  .ct-cardimg .ct-olimg {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 130px;
+  }
+  
+  .ct-cardimg .ct-logoimg {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .ct-cardimg .ct-type {
+    position: absolute;
+    top: 92%;
+    left: 13.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+  
+  .ct-cardimg .ct-amount {
+    position: absolute;
+    top: 92.5%;
+    right: -13%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+}
+
+@media (width : 414px ) and (height : 736px) {
+  .ct-bg {
+    width : 400px;
+    height : 120px;
+  }
+  .ct-search {
+    width: 360px;
+    height: 35px;
+    margin-left : 35px;
+    margin-top : 10px;
+    padding-left: 10px;
+  }
+  .ct-button {
+    height: 35px;
+    width : 360px;
+    margin-left : 35px
+
+  }
+  .ct-advs {
+    font-size : 17px;
+    margin-left: 263px;
+  }
+  .ct-pad {
+    padding-right: 35%;
+    width: 500px;
+    height: 65px;
+    margin-top: -10px;
+    margin-left: -20px;
+   }
+}
+
+@media (width : 375px ) and (height : 812px) {
+  .ct-bg {
+    width : 360px;
+    height : 120px;
+  }
+  .ct-search {
+    width: 340px;
+    height: 35px;
+    margin-left : 24px;
+    margin-top : 10px;
+    padding-left: 10px;
+  }
+  .ct-button {
+    height: 35px;
+    width : 340px;
+    margin-left : 24px
+
+  }
+  .ct-advs {
+    font-size : 17px;
+    margin-left: 228px;
+  }
+  .ct-pad {
+    padding-right: 50%;
+    width: 500px;
+    height: 65px;
+    margin-top: -10px;
+    margin-left: -20px;
+   }
+   .ct-cardimg img {
+    width: 100%;
+    height: auto;
+  }
+  .ct-card {
+    height:390px
+  }
+
+  .ct-cardimg .ct-olimg {
+    position: absolute;
+    top: 23%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 130px;
+  }
+  
+  .ct-cardimg .ct-logoimg {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .ct-cardimg .ct-type {
+    position: absolute;
+    top: 90.5%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+  
+  .ct-cardimg .ct-amount {
+    position: absolute;
+    top: 90.5%;
+    right: -14.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+}
+
+@media (width : 320px) and (height
+: 568px) {
+  .log {
+    margin-left: 0px;
+  }
+  .ct-cat {
+    font-size: 12px;
+    margin-left: 24px;
+  }
+  .ct-txts {
+    font-size: 16px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-txtm {
+    font-size: 16px;
+    color: white;
+    background-color: #e7165d;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-bg {
+    width : 300px;
+    height : 120px;
+  }
+  .ct-search {
+    width: 280px;
+    height: 35px;
+    margin-left : 25px;
+    margin-top : 10px;
+    padding-left: 10px;
+  }
+  .ct-button {
+    height: 35px;
+    width : 280px;
+    margin-left : 25px
+
+  }
+  .ct-advs {
+    font-size : 17px;
+    margin-left: 170px;
+  }
+  .ct-pad {
+    padding-right: 75%;
+    width: 500px;
+    height: 65px;
+    margin-top: -10px;
+    margin-left: -20px;
+   }
+   .ct-cardimg img {
+    width: 100%;
+    height: auto;
+  }
+   .ct-card {
+    height:390px
+  }
+
+  .ct-cardimg .ct-olimg {
+    position: absolute;
+    top: 27%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 130px;
+  }
+  
+  .ct-cardimg .ct-logoimg {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .ct-cardimg .ct-type {
+    position: absolute;
+    top: 89%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    font-size: 9px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+  
+  .ct-cardimg .ct-amount {
+    position: absolute;
+    top: 89%;
+    right: -13.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    font-size: 9px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+}
+@media (width : 320px) and (height
+: 633px) {
+  .log {
+    margin-left: 0px;
+  }
+  .ct-cat {
+    font-size: 12px;
+    margin-left: 24px;
+  }
+  .ct-txts {
+    font-size: 16px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-txtm {
+    font-size: 16px;
+    color: white;
+    background-color: #e7165d;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-bg {
+    width : 300px;
+    height : 120px;
+  }
+  .ct-search {
+    width: 280px;
+    height: 35px;
+    margin-left : 25px;
+    margin-top : 10px;
+    padding-left: 10px;
+  }
+  .ct-button {
+    height: 35px;
+    width : 280px;
+    margin-left : 25px
+
+  }
+  .ct-advs {
+    font-size : 17px;
+    margin-left: 170px;
+  }
+}
+@media (width : 375px) and (height
+: 667px) {
+  .ct-bg {
+    width : 360px;
+    height : 120px;
+  }
+  .ct-search {
+    width: 340px;
+    height: 35px;
+    margin-left : 25px;
+    margin-top : 10px;
+    padding-left: 10px;
+  }
+  .ct-button {
+    height: 35px;
+    width : 340px;
+    margin-left : 25px
+
+  }
+  .ct-advs {
+    font-size : 17px;
+    margin-left: 230px;
+  }
+  .ct-pad {
+    padding-right: 50%;
+    width: 500px;
+    height: 65px;
+    margin-top: -10px;
+    margin-left: -20px;
+   }
+   .ct-cardimg img {
+    width: 100%;
+    height: auto;
+  }
+   .ct-card {
+    height:390px
+  }
+
+  .ct-cardimg .ct-olimg {
+    position: absolute;
+    top: 23%;
+    left: 13%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 130px;
+  }
+  
+  .ct-cardimg .ct-logoimg {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .ct-cardimg .ct-type {
+    position: absolute;
+    top: 90.5%;
+    left: 14.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+  
+  .ct-cardimg .ct-amount {
+    position: absolute;
+    top: 90.5%;
+    right: -14.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+}
+
+
+@media (min-width : 415px) {
+  .log {
+    margin-left: 75px;
+  }
+  .log-size {
+    height: 30px;   
+  }
+  .spacing {
+    margin-right: 75px;
+  }
+
+ 
+}
+@media (width : 768px)  {
+  .log {
+    margin-left: 15px;
+  }
+  .log-size {
+    height: 35px;   
+  }
+  .ct-cat {
+    margin-left: 320px;
+  }
+  .ct-imgsize {
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width : 100%;
+    height : 280px;
+  }
+  .centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ct-txts {
+    font-size: 40px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-txtm {
+    font-size: 40px;
+    color: white;
+    background-color: #e7165d;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-bg {
+    width : 730px;
+    height : 120px;
+  }
+  .ct-search {
+    width: 530px;
+    height: 55px;
+    margin-left : 30px;
+    margin-top : 30px;
+    padding-left: 10px;
+  }
+  .ct-button {
+    height: 55px;
+    width : 170px;
+    margin-left : 560px;
+    margin-top : -55px;
+  }
+  .ct-advs {
+    font-size : 17px;
+    margin-left: 594px;
+    
+  }
+  .ct-head {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .ct-subhead {
+    text-align: center;
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   .ct-pad {
+    
+    width :741px;
+    height: 65px;
+    margin-top: -10px;
+    margin-left: -20px;
+   }
+   .ct-cardimg {
+    position: relative;
+    width: 100%;
+    
+  }
+  .ct-card {
+    width: 737px;
+    height:600px
+  }
+
+  .ct-cardimg img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .ct-cardimg .ct-olimg {
+    position: absolute;
+    top: 15%;
+    left: 8.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height: 130px;
+    width: 170px;
+  }
+  
+  .ct-cardimg .ct-logoimg {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .ct-cardimg .ct-type {
+    position: absolute;
+    top: 93%;
+    left: 10.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+  
+  .ct-cardimg .ct-amount {
+    position: absolute;
+    top: 93%;
+    right: -10.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    padding-top: 8px;
+  }
+  .ct-date {
+    font-size: 26px;
+  }
+  .ct-duedate {
+    font-size: 26px;
+    
+  }
+  .ct-ftsize {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+  }
+  .ct-ftimgsize {
+    width: 170px;
+   
+  }
+}
+@media (width : 540px) and (height : 720px) {
+  .log {
+    margin-left: 15px;
+  }
+  .log-size {
+    height: 35px;   
+  }
+  .ct-cat {
+    margin-left: 160px;
+  }
+  .centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ct-txts {
+    font-size: 20px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-txtm {
+    font-size: 20px;
+    color: white;
+    background-color: #e7165d;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-bg {
+    width : 500px;
+    height : 120px;
+  }
+  .ct-search {
+    width: 480px;
+    height: 35px;
+    margin-left : 25px;
+    margin-top : 10px;
+    padding-left: 10px;
+  }
+  .ct-button {
+    height: 35px;
+    width : 480px;
+    margin-left : 25px
+
+  }
+  .ct-advs {
+    font-size : 17px;
+    margin-left: 370px;
+  }
+  .ct-head {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .ct-subhead {
+    margin-top: -15px;
+    text-align: center;
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   .ct-pad {
+    padding-right: 0%;
+    width: 515px;
+    height: 65px;
+    margin-top: -10px;
+    margin-left: -20px;
+   }
+   
+   .ct-cardimg {
+    position: relative;
+    width: 100%;
+  }
+  .ct-card {
+    height:450px
+  }
+  .ct-cardimg img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .ct-cardimg .ct-olimg {
+    position: absolute;
+    top: 15%;
+    left: 8.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 130px;
+  }
+  
+  .ct-cardimg .ct-logoimg {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .ct-cardimg .ct-type {
+    position: absolute;
+    top: 94%;
+    left: 10.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+  
+  .ct-cardimg .ct-amount {
+    position: absolute;
+    top: 94%;
+    right: -10.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    padding-top: 8px;
+  }
+  .ct-date {
+    font-size: 7.5px;
+  }
+  .ct-duedate {
+    font-size: 7.5px;
+    
+  }
+}
+
+@media (width : 1024px) and (height : 1366px) {
+  .log {
+    margin-left: 24px;
+  }
+  .log-size {
+    height: 35px;   
+  }
+  .ct-cat {
+   font-size: 4px;
+  }
+  .spacing {
+    margin-right: 24px;
+  }
+  .ct-imgsize {
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width : 100%;
+    height : 300px;
+  }
+  .centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ct-txts {
+    font-size: 40px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-txtm {
+    font-size: 40px;
+    color: white;
+    background-color: #e7165d;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-bg {
+    width : 900px;
+    height : 120px;
+  }
+  .ct-search {
+    width: 724px;
+    height: 55px;
+    margin-left : 30px;
+    margin-top : 30px;
+    padding-left: 10px;
+  }
+  .ct-button {
+    height: 55px;
+    width : 170px;
+    margin-left : 724px;
+    margin-top : -55px;
+  }
+  .ct-advs {
+    font-size : 17px;
+    margin-left: 760px;
+    
+  }
+  .ct-head {
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 28px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .ct-subhead {
+    margin-top: -15px;
+    padding-left: 30px;
+    font-size: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   .ct-prg {
+    padding-left: 30px;
+   }
+   .ct-cardimg {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  .ct-card {
+    height:390px;
+    margin-right: -25px;
+  }
+
+  .ct-cardimg img {
+    width: 100%;
+    height: 160px;
+  }
+  
+  .ct-cardimg .ct-olimg {
+    position: absolute;
+    top: 25%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 130px;
+  }
+  
+  .ct-cardimg .ct-logoimg {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .ct-cardimg .ct-type {
+    position: absolute;
+    top: 90.5%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+  
+  .ct-cardimg .ct-amount {
+    position: absolute;
+    top: 90.5%;
+    right: -16.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    font-size: 9px;
+    padding-top: 8px;
+  }
+  .ct-date {
+    padding-top: 15px;
+    font-size: 7.5px;
+  }
+  .ct-duedate {
+    padding-top: 15px;
+    font-size: 7.5px;
+    
+  }
+  .ct-ipro {
+    margin-top: -80px;
+  }
+
+  .ct-ftsize {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+  }
+  .ct-ftimgsize {
+    width: 170px;
+   
+  }
+}
+@media (width : 280px) and (height : 653px) {
+  .log {
+    margin-left: 5px;
+  }
+  .log-size {
+    height: 20px;   
+  }
+  .ct-cat {
+   font-size: 0px;
+  }
+  .spacing {
+    margin-left: 20px;
+  }
+  .ct-imgsize {
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width : 100%;
+    height : 170px;
+  }
+  .ct-txts {
+    font-size: 15px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-txtm {
+    font-size: 15px;
+    color: white;
+    background-color: #e7165d;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-bg {
+    width : 260px;
+    height : 120px;
+  }
+  .ct-search {
+    width: 240px;
+    height: 35px;
+    margin-left : 25px;
+    margin-top : 10px;
+    padding-left: 10px;
+  }
+  .ct-button {
+    height: 35px;
+    width : 240px;
+    margin-left : 25px
+
+  }
+  .ct-advs {
+    font-size : 17px;
+    margin-left: 130px;
+  }
+  .ct-head {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .ct-subhead {
+    margin-top: -15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   .ct-pad {
+    padding-right: 50%;
+    width: 254px;
+    height: 65px;
+    margin-top: -10px;
+    margin-left: -20px;
+   }
+   .ct-headsize {
+     font-size: 200px;
+   }
+   .ct-cardimg {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  .ct-card {
+    height:380px
+  }
+
+  .ct-cardimg img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .ct-cardimg .ct-olimg {
+    position: absolute;
+    top: 25%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height: 80px;
+    width: 110px;
+  }
+  
+  .ct-cardimg .ct-logoimg {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .ct-cardimg .ct-type {
+    position: absolute;
+    top: 87%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 65px;
+    height: 30px;
+    font-size: 7px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+  
+  .ct-cardimg .ct-amount {
+    position: absolute;
+    top: 87%;
+    right: -14.5%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 65px;
+    height: 30px;
+    font-size: 9px;
+    padding-top: 8px;
+  }
+  .ct-date {
+    font-size: 7.5px;
+  }
+  .ct-duedate {
+    font-size: 7.5px;
+    
+  }
+}
+@media (width : 1366px) and (height : 1024px) {
+
+  .ct-imgsize {
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width : 100%;
+    height : 350px;
+  }
+}
+@media (width : 388px) and (height : 659px) {
+  .ct-pad {
+    padding-right: 0%;
+    width: 363px;
+    height: 65px;
+    margin-top: -10px;
+    margin-left: -20px;
+   }
+   
+  
+}
+@media (min-width : 1366px) {
+
+  .ct-imgsize {
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width : 100%;
+    height : 320px;
+    opacity: 1;
+  }
+  .centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ct-txts {
+    font-size: 50px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-txtm {
+    font-size: 50px;
+    color: white;
+    background-color: #e7165d;
+    font-family: 'Open Sans';
+    font-weight:bold
+  }
+  .ct-bg {
+    width : 900px;
+    height : 120px;
+  }
+  .ct-search {
+    width: 724px;
+    height: 55px;
+    margin-left : 30px;
+    margin-top : 30px;
+    padding-left: 10px;
+  }
+  .ct-button {
+    height: 55px;
+    width : 170px;
+    margin-left : 724px;
+    margin-top : -55px;
+  }
+  .ct-advs {
+    font-size : 17px;
+    margin-left: 760px;
+    
+  }
+  .ct-head {
+   padding-left: 90px;
+   padding-top: 10px;
+   font-size: 35px;
+  }
+  .ct-subhead {
+    padding-left: 90px;
+    margin-top: -15px;
+    font-size: 20px;
+   }
+   .ct-prg {
+    padding-left: 90px;
+   }
+   .ct-cardimg {
+    position: relative;
+    width: 100%;
+  }
+  .ct-card {
+    height:440px;
+    margin-right: -25px;
+  }
+
+  .ct-cardimg img {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .ct-cardimg .ct-olimg {
+    position: absolute;
+    top: 18%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height: 100px;
+    width: 130px;
+  }
+  
+  .ct-cardimg .ct-logoimg {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .ct-cardimg .ct-type {
+    position: absolute;
+    top: 90.5%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    font-size: 13px;
+    padding-right: 10px;
+    padding-top: 8px;
+  }
+  
+  .ct-cardimg .ct-amount {
+    position: absolute;
+    top: 90.5%;
+    right: -15%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    font-size: 9px;
+    padding-top: 8px;
+  }
+  .ct-date {
+    padding-top: 15px;
+    font-size: 12px;
+  }
+  .ct-duedate {
+    padding-top: 15px;
+    font-size: 12px;
+    
+  }
+  .ct-nl {
+    height : 350px;
+    background-repeat: no-repeat;
+    background-size : 100%;
+  }
+
+  .ct-ftsize {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+  }
+  .ct-ftimgsize {
+    width: 170px;
+   
+  }
+}
+
+
+@media (width : 1024px) and (height : 768px) {
+  .log {
+    margin-left: 20px;
+  }
+  .spacing {
+    margin-right: 20px;
+  }
+  .ct-imgsize {
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width : 100%;
+    height : 350px;
+  }
+}
+
+@media (width : 540px)  {
+  .log {
+    margin-left: 15px;
+  }
+  .log-size {
+    height: 30px;   
+  }
+  .spacing {
+    margin-right: 45px;
+  }
+  .ct-imgsize {
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width : 100%;
+    height : 200px;
+  }
+  .ct-ftsize {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+  }
+  .ct-ftimgsize {
+    width: 170px;
+   
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.borderless td, .borderless th {
+  border: none;
+}
+
+
+
+
